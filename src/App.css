@@ -1,0 +1,267 @@
+/* only element style here */
+:root{
+  --navy: #0009b1;
+ 
+  --blue:#0071E3;
+  --goldyellow:#FFC300;
+  --gray:#c6c6c6;
+  --lightash:#fafafc;
+  --green:rgba(0, 255, 174, 0.826);
+   --rose:#ffd9d9;
+  --pink:#fe00fe;
+  --black:#000000;
+  --lightblack:#424242;
+  --lightgray:#a0a0a0;
+
+  
+  --font:'Readex Pro',sans-serif;
+  --stylishfont:'Noto Serif', 
+  serif;
+  --serif:'Noto Serif Display', serif;
+  --marker:'Permanent Marker', 'cursive';
+  --lora: 'Lora', serif;
+  --acmefont: 'Acme', sans-serif;
+}
+
+*{  
+
+     margin: 0% 10px 0% 10px ;
+     padding: 0%;
+     box-sizing: border-box;
+     background-color: var(--lightgray);
+}
+
+ul{
+  backdrop-filter: blur(5px);
+  z-index: 3;
+background-color: transparent;
+  display: flex;
+  flex-direction: row;
+justify-content:center;
+
+ height: 10vh;
+ min-width: 90vw;
+ position: sticky;
+ top: 0px;
+  font-weight: bolder;
+  font-size: clamp(20px , 18px,16px);
+font-family:'Times New Roman', Times, serif;
+  align-items: center left;
+flex-wrap: wrap;
+
+list-style: none;
+/* border: 10px solid; */
+
+}
+
+
+ li , li a{
+  backdrop-filter:blur(15px);
+  min-width:10vw ; color: var(--lightblack);
+  background-color: transparent;
+ 
+}
+
+ li a::after {
+  content: "";
+  position: absolute;
+  bottom: -3px; 
+  left: 0;
+  width: 0;
+  height: 2px; 
+  background-color:var(--lightblack); 
+  transition: width 0.3s ease-in-out;
+}
+
+
+li a:hover::after {
+  width: 100%; /* Adjust final width */
+
+}
+
+
+
+li a:hover{
+  text-shadow: 0.3px 0.3px 0px var(--black);
+  transition-duration: 0.2s;
+ transition-timing-function: ease-out;
+  color: var(--blue);
+  
+  
+  
+}
+
+
+
+
+.homeicon  {
+ padding-top: 5%;
+ background-color:transparent;
+  width: 2vw;
+  height: 2vh;
+ color: transparent;
+  font-size: 3vmax;
+  color: var(--blue);}
+ 
+  .homeicon:hover{
+    
+    color: var(--green);
+    transition-duration: 0.5s;
+  }
+
+
+.logo {
+  float: left;
+  margin-top: 0.5%;
+  /* left: 10vw; */
+  /* display: inline-block; */
+  filter:brightness(150%);
+  background-color:var(--black);
+  border-radius: 40px;
+  position: relative;
+/* padding-top: -50px; */
+  border: 1px solid;
+  height: 50px;
+width:50px; 
+background-image: url('./images/logo.png');
+z-index: 5;
+ background-position-x:  65%;
+ background-position-y:  -5%;
+background-repeat: no-repeat;
+
+background-size:110px ;
+
+
+
+}
+
+
+@media only screen and (max-width : 500px ){
+  
+*{  
+
+  margin: 0px 0px 0px 0px ;
+  padding: 0%;
+  box-sizing: border-box;
+  background-color: var(--lightgray);
+}
+
+ul{
+  margin-top: 2%;
+  /* padding-top: 2%; */
+backdrop-filter: blur(5px);
+z-index: 3;
+background-color: transparent;
+display: flex;
+flex-direction: column;
+justify-content:space-evenly;
+margin-inline: auto;
+height: 10vh;
+width: 90dvw;
+position: sticky;
+top: 0px;
+font-weight: bolder;
+font-size: clamp(20px , 18px,16px);
+font-family:'Times New Roman', Times, serif;
+align-items: center left;
+flex-wrap: wrap;
+
+list-style: none;
+/* border: 10px solid; */
+
+}
+
+
+li , li a{
+backdrop-filter:blur(15px);
+min-width:8vw ; color: var(--lightblack);
+background-color: transparent;
+
+}
+
+li a::after {
+content: "";
+position: absolute;
+bottom: -3px; 
+left: 0;
+width: 0;
+height: 2px; 
+background-color:var(--lightblack); 
+transition: width 0.3s ease-in-out;
+}
+
+
+li a:hover::after {
+width: 100%; /* Adjust final width */
+
+}
+
+
+
+li a:hover{
+text-shadow: 0.3px 0.3px 0px var(--black);
+transition-duration: 0.2s;
+transition-timing-function: ease-out;
+color: var(--blue);
+
+
+
+}
+
+
+
+
+.homeicon  {
+padding-top: 5%;
+background-color:transparent;
+width: 3vw;
+height: 3vh;
+color: transparent;
+font-size: 3vmax;
+color: var(--blue);}
+
+.homeicon:hover{
+ 
+ color: var(--green);
+ transition-duration: 0.5s;
+}
+
+
+.logo {
+float: left;
+margin-top: 0.5%;
+/* left: 10vw; */
+/* display: inline-block; */
+filter:brightness(150%);
+background-color:var(--black);
+border-radius: 40px;
+position: relative;
+/* padding-top: -50px; */
+border: 1px solid;
+height: 50px;
+width:50px; 
+background-image: url('./images/logo.png');
+z-index: 5;
+background-position-x:  65%;
+background-position-y:  -5%;
+background-repeat: no-repeat;
+
+background-size:110px ;
+
+
+
+}
+
+}
+
+ 
+
+
+
+
+
+
+
+
+
+

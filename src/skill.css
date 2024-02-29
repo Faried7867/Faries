@@ -1,0 +1,839 @@
+/* media quaries styles here */
+/* animation here */
+
+
+
+:root{
+     --navy: #0009b1;
+     --mildblue:#dbdcff3b;
+     --goldyellow:#FFC300;
+     --green:rgba(0, 255, 174, 0.826);
+     --lightash:#6c6c6c ;
+     --black:#000000;
+     --lightgray:#a0a0a0;
+     --lightblack:#424242;
+     --font:'Readex Pro',sans-serif;
+     --stylishfont:'Noto Serif', 
+     serif;
+     --marker:'Permanent Marker', 'cursive';
+     --lora: 'Lora', serif;
+     --acmefont: 'Acme', sans-serif;
+}
+
+
+
+.bgwrap
+{
+     position: relative;
+     z-index: 2;
+background-color: transparent;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.skillswrap
+{
+
+/* padding: 5%; */
+     position: relative;
+   
+background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* grid-template-columns: 1fr 1fr; */
+  width: 90vw;
+  /* height: 250vh; */
+  background-image: url('./images/Rectangle.png');
+  background-size: contain;
+  background-attachment: fixed;
+  background-position: center left;
+  background-size: 50vw;
+  z-index: 2;
+
+}
+
+
+#flowe{
+     background-image: url('./images/flower7.png');
+     background-size: contain;
+     background-attachment: fixed;
+     background-blend-mode: multiply;
+     background-position:  left center;  
+     background-size: 40vw;
+     z-index: 2;
+
+}
+
+
+.programminglanguage
+{
+   
+backdrop-filter: blur(10px);
+     background-color: transparent;
+    padding: 2px;
+    margin-top: 5%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     align-content: center;
+     text-align: center;
+     text-wrap: wrap;
+     z-index: 2;
+
+
+
+
+
+}
+
+.programminglanguage h2{
+     border: 1px groove var(--green);
+     border-radius: 20px;
+     box-shadow: 0px 0px 10px var(--navy) ;
+   padding: 3px;
+     color: rgba(158, 255, 139, 0.831);
+     background-color: transparent;
+     word-spacing: 1px;
+     font-family: var(--lora);
+     background: -webkit-linear-gradient(#0040ff,rgb(147, 0, 138), #3e0045);
+     z-index: 2;
+   -webkit-background-clip: text;
+   background-clip: text;
+   -webkit-text-fill-color: transparent
+}
+.programminglanguage  span
+{
+     background-color: transparent;
+     font-size: 40px;
+    position: relative;
+    color:var(--lightblack);
+
+    
+
+}
+.programminglanguage   p{
+     background-color: var(--mildblue);
+     padding: 10px;
+    
+     text-indent: 100px;
+     letter-spacing: 1px;
+     font-family: var(--lora);
+     color:var(--black);
+     font-size: 18px;
+     text-shadow: 0px 0px 1.5px var(--navy);
+     text-align: center;
+     text-align:justify;
+     
+     word-spacing: 2px;
+     text-align-last:left;
+     border: 1px solid var(--lightblack);
+   box-shadow: 5px 5px 100px var(--lightgray) inset;
+     border-radius: 50px;
+     border-top-right-radius: 0%;
+     border-bottom-left-radius: 0%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.frameworks
+{
+     margin-top: 5%;
+    
+     backdrop-filter: blur(10px);
+     background-color: transparent;
+    padding: 2px;
+     display: flex;
+     flex-direction: row-reverse;
+     justify-content: center;
+     align-items: center;
+     align-content: center;
+     text-align: center;
+     text-wrap: wrap;
+     z-index: 2;
+
+
+}
+
+
+
+.frameworks h2{
+
+     border: 1px groove var(--green);
+     border-radius: 20px;
+     box-shadow: 0px 0px 10px var(--navy) ;
+   padding: 3px;
+    
+     color: rgba(158, 255, 139, 0.831);
+  
+     word-spacing: 1px;
+     font-family: var(--lora);
+     background: -webkit-linear-gradient(#3400de, #008282,rgb(119, 0, 105));
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     background-clip: text;
+     }
+
+
+.frameworks span
+{
+     font-size: 40px;
+     position: relative;
+     color:var(--lightblack);
+     background-color: transparent;
+}
+
+
+
+
+.frameworks  p{
+     background-color: var(--mildblue);
+     padding: 10px;
+    
+     text-indent: 100px;
+     letter-spacing: 1px;
+     font-family: var(--lora);
+     color:var(--black);
+     font-size: 18px;
+     text-shadow: 0px 0px 1.5px var(--navy);
+     text-align: center;
+     text-align:justify;
+     
+     word-spacing: 2px;
+     text-align-last:left;
+     border: 1px solid var(--lightblack);
+   box-shadow: 5px 5px 100px var(--lightgray) inset;
+     border-radius: 50px;
+     border-top-right-radius: 0%;
+     border-bottom-left-radius: 0%;
+   
+}
+
+
+
+
+
+
+
+.designingsframeworks
+{
+     margin-top: 10%;
+
+     backdrop-filter: blur(10px);
+     background-color: transparent;
+    padding: 2px;
+     display: flex;
+     flex-direction: row-reverse;
+     justify-content: center;
+     align-items: center;
+     align-content: center;
+     text-align: center;
+     text-wrap: wrap;
+     z-index: 2;
+
+}
+
+.designingsframeworks h2{
+
+     border: 1px groove var(--green);
+     border-radius: 20px;
+     box-shadow: 0px 0px 10px var(--navy) ;
+   padding: 3px;
+     color: rgba(158, 255, 139, 0.831);
+     background-color: transparent;
+     word-spacing: 1px;
+     font-family: var(--lora);
+     background: -webkit-linear-gradient(rgb(0, 0, 170),rgba(146, 0, 203, 0.902), #0003cb);
+     -webkit-background-clip: text;
+     background-clip: text;
+     -webkit-text-fill-color: transparent
+}
+.designingsframeworks span
+{
+   
+     font-size: 50px;
+     position: relative;
+     color:var(--lightblack);
+     background-color: transparent;
+}
+.designingsframeworks p{
+     background-color: var(--mildblue);
+     padding: 10px;
+    
+     text-indent: 100px;
+     letter-spacing: 1px;
+     font-family: var(--lora);
+     color:var(--black);
+     font-size: 18px;
+     text-shadow: 0px 0px 1.5px var(--navy);
+     text-align: center;
+     text-align:justify;
+     
+     word-spacing: 2px;
+     text-align-last:left;
+     border: 1px solid var(--lightblack);
+   box-shadow: 5px 5px 100px var(--lightgray) inset;
+     border-radius: 50px;
+     border-top-right-radius: 0%;
+     border-bottom-left-radius: 0%;
+}
+
+
+
+
+
+.desiningtools
+{
+     margin-top: 5%;
+     min-height:20% ;
+     backdrop-filter: blur(10px);
+     background-color: transparent;
+    padding: 2px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     align-content: center;
+     text-align: center;
+     text-wrap: wrap;
+     z-index: 2;
+
+
+}
+
+.desiningtools h2{
+
+   border: 1px groove var(--green);
+   border-radius: 20px;
+   box-shadow: 0px 0px 10px var(--navy) ;
+ padding: 3px;
+     background-color: transparent;
+     color: rgba(0, 1, 0, 0.831);
+
+     word-spacing: 1px;
+     font-family: var(--lora);
+     background: -webkit-linear-gradient(#00054b, #0004ec,rgb(0, 162, 255));
+     -webkit-background-clip: text;
+     background-clip: text;
+     -webkit-text-fill-color: transparent
+}
+.desiningtools span
+{
+     background-color: transparent;
+     font-size: 50px;
+     position: relative;
+     color:var(--lightblack);
+
+}
+.desiningtools p{
+     background-color: var(--mildblue);
+     padding: 10px;
+    
+     text-indent: 100px;
+     letter-spacing: 1px;
+     font-family: var(--lora);
+     color:var(--black);
+     font-size: 18px;
+     text-shadow: 0px 0px 1.5px var(--navy);
+     text-align: center;
+     text-align:justify;
+     
+     word-spacing: 2px;
+     text-align-last:left;
+     border: 1px solid var(--lightblack);
+   box-shadow: 5px 5px 100px var(--lightgray) inset;
+     border-radius: 50px;
+     border-top-right-radius: 0%;
+     border-bottom-left-radius: 0%;
+}
+
+
+
+
+.svgofallskills
+{
+     box-shadow: 1px 1px 15px #ff002b inset ;
+     margin-inline: auto;
+     backdrop-filter: blur(20px);
+     z-index: 2;
+    border-radius: 20px;
+    
+     background-color: transparent;
+text-align: center;
+text-wrap: wrap;
+width:90vw ;
+min-height: 50vh;   
+margin-left: 0px;  
+margin-top: 15px;
+margin-bottom: 10px;
+background-position:700px center;
+       background-blend-mode: darken;
+       background-attachment:scroll;
+       background-repeat: no-repeat;
+       background-size: 20vw;
+       background-image:url('./images/flower7.png');
+
+}
+
+
+.svgofallskills h2{
+     /* backdrop-filter: blur(20px); */
+     z-index: 2;
+     color:var(--navy);
+     background-color: transparent;
+     word-spacing: 1px;
+     font-size: 40px;
+     font-family: var(--lora);
+     background: -webkit-linear-gradient(#390065, #4d0080,#ff002b);
+     -webkit-background-clip: text;
+     background-clip: text;
+ 
+     -webkit-text-fill-color: transparent
+}
+
+.svgofallskills span
+{
+     /* backdrop-filter: blur(20px); */
+     z-index: 2;
+     background-color: transparent;
+     width: 92vw;
+     position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* padding-left: 10vw; */
+   
+    
+     font-size: 30px;
+     min-height: 40vh;  
+    color:var(--black);
+     display: grid;
+     grid-template-columns: 20vw 20vw 20vw;
+     justify-content: space-around;
+     align-items: center;
+    justify-items: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width : 500px ){
+      .bgwrap{
+     position: relative;
+     z-index: 2;
+background-color: transparent;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.skillswrap
+{
+overflow: hidden;
+margin-inline: auto;
+     position: relative;
+   
+background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 95vw;
+  background-image: url('./images/Rectangle.png');
+  background-size: contain;
+  background-attachment: fixed;
+  background-position: center left;
+  background-size: 50vw;
+  z-index: 2;
+
+}
+
+
+
+.programminglanguage
+{
+   
+backdrop-filter: blur(10px);
+     background-color: transparent;
+    padding: 2px;
+    margin-top: 20%;
+     display: flex;
+
+     flex-direction: column;
+
+     justify-content: center;
+     align-items: center;
+     align-content: center;
+     text-align: center;
+     text-wrap: wrap;
+     z-index: 2;
+
+
+
+
+
+}
+
+.programminglanguage h2{
+   
+   padding: 3px;
+     color: rgba(158, 255, 139, 0.831);
+     background-color: transparent;
+     word-spacing: 1px;
+     font-family: var(--lora);
+     background: -webkit-linear-gradient(#0040ff,rgb(147, 0, 138), #3e0045);
+     z-index: 2;
+   -webkit-background-clip: text;
+   background-clip: text;
+   -webkit-text-fill-color: transparent
+}
+.programminglanguage  span
+{
+     background-color: transparent;
+     font-size: 40px;
+    position: relative;
+    color:var(--lightblack);
+
+    
+
+}
+.programminglanguage   p{
+     background-color: var(--mildblue);
+     padding: 10px;
+    
+     text-indent: 100px;
+     letter-spacing: 1px;
+     font-family: var(--lora);
+     color:var(--black);
+     font-size: 18px;
+     text-shadow: 0px 0px 1.5px var(--navy);
+     text-align: center;
+     text-align:justify;
+     
+     word-spacing: 2px;
+     text-align-last:left;
+     border: 1px solid var(--lightblack);
+   box-shadow: 5px 5px 100px var(--lightgray) inset;
+     border-radius: 50px;
+     border-top-right-radius: 0%;
+     border-bottom-left-radius: 0%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.frameworks
+
+{
+    
+     margin-top: 20%;
+    
+     backdrop-filter: blur(10px);
+     background-color: transparent;
+    padding: 2px;
+     display: flex;
+     flex-direction:column;
+     justify-content: center;
+     align-items: center;
+     align-content: center;
+     text-align: center;
+     text-wrap: wrap;
+     z-index: 2;
+
+
+}
+
+
+
+.frameworks h2{
+
+    
+   padding: 3px;
+    
+     color: rgba(158, 255, 139, 0.831);
+  
+     word-spacing: 1px;
+     font-family: var(--lora);
+     background: -webkit-linear-gradient(#3400de, #008282,rgb(119, 0, 105));
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     background-clip: text;
+     }
+
+
+.frameworks span
+{
+     font-size: 40px;
+     position: relative;
+     color:var(--lightblack);
+     background-color: transparent;
+}
+
+
+
+
+.frameworks  p{
+     background-color: var(--mildblue);
+     padding: 10px;
+    
+     text-indent: 100px;
+     letter-spacing: 1px;
+     font-family: var(--lora);
+     color:var(--black);
+     font-size: 18px;
+     text-shadow: 0px 0px 1.5px var(--navy);
+     text-align: center;
+     text-align:justify;
+     
+     word-spacing: 2px;
+     text-align-last:left;
+     border: 1px solid var(--lightblack);
+   box-shadow: 5px 5px 100px var(--lightgray) inset;
+     border-radius: 50px;
+     border-top-right-radius: 0%;
+     border-bottom-left-radius: 0%;
+   
+}
+
+
+
+
+
+
+
+.designingsframeworks
+{
+   
+     margin-top: 20%;
+
+     backdrop-filter: blur(10px);
+     background-color: transparent;
+    padding: 2px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     align-content: center;
+     text-align: center;
+     text-wrap: wrap;
+     z-index: 2;
+
+}
+
+.designingsframeworks h2{
+
+  
+   padding: 3px;
+     color: rgba(158, 255, 139, 0.831);
+     background-color: transparent;
+     word-spacing: 1px;
+     font-family: var(--lora);
+     background: -webkit-linear-gradient(rgb(0, 0, 170),rgba(146, 0, 203, 0.902), #0003cb);
+     -webkit-background-clip: text;
+     background-clip: text;
+     -webkit-text-fill-color: transparent
+}
+.designingsframeworks span
+{
+   
+     font-size: 50px;
+     position: relative;
+     color:var(--lightblack);
+     background-color: transparent;
+}
+.designingsframeworks p{
+     background-color: var(--mildblue);
+     padding: 10px;
+    
+     text-indent: 100px;
+     letter-spacing: 1px;
+     font-family: var(--lora);
+     color:var(--black);
+     font-size: 18px;
+     text-shadow: 0px 0px 1.5px var(--navy);
+     text-align: center;
+     text-align:justify;
+     
+     word-spacing: 2px;
+     text-align-last:left;
+     border: 1px solid var(--lightblack);
+   box-shadow: 5px 5px 100px var(--lightgray) inset;
+     border-radius: 50px;
+     border-top-right-radius: 0%;
+     border-bottom-left-radius: 0%;
+}
+
+
+
+
+
+.desiningtools
+{
+   
+     margin-top: 20%;
+     min-height:20% ;
+     backdrop-filter: blur(10px);
+     background-color: transparent;
+    padding: 2px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     align-content: center;
+     text-align: center;
+     text-wrap: wrap;
+     z-index: 2;
+
+
+}
+
+.desiningtools h2{
+  
+  
+   
+ padding: 3px;
+     background-color: transparent;
+     color: rgba(0, 1, 0, 0.831);
+
+     word-spacing: 1px;
+     font-family: var(--lora);
+     background: -webkit-linear-gradient(#00054b, #0004ec,rgb(0, 162, 255));
+     -webkit-background-clip: text;
+     background-clip: text;
+     -webkit-text-fill-color: transparent
+}
+.desiningtools span
+{
+     background-color: transparent;
+     font-size: 50px;
+     position: relative;
+     color:var(--lightblack);
+
+}
+.desiningtools p{
+     background-color: var(--mildblue);
+     padding: 10px;
+    
+     text-indent: 100px;
+     letter-spacing: 1px;
+     font-family: var(--lora);
+     color:var(--black);
+     font-size: 18px;
+     text-shadow: 0px 0px 1.5px var(--navy);
+     text-align: center;
+     text-align:justify;
+     
+     word-spacing: 2px;
+     text-align-last:left;
+     border: 1px solid var(--lightblack);
+   box-shadow: 5px 5px 100px var(--lightgray) inset;
+     border-radius: 50px;
+     border-top-right-radius: 0%;
+     border-bottom-left-radius: 0%;
+}
+
+
+
+
+.svgofallskills
+{
+     backdrop-filter: blur(20px);
+     z-index: 2;
+
+    
+     background-color: transparent;
+text-align: center;
+text-wrap: wrap;
+width:90vw ;
+min-height: 60vh;   
+margin-left: 0px;  
+margin-top: 10px;
+background-position:100px bottom;
+       background-blend-mode: darken;
+       background-attachment:scroll;
+       background-repeat: no-repeat;
+       background-size: 60vw;
+       background-image:url('./images/flower7.png');
+}
+
+
+.svgofallskills h2{
+     
+     z-index: 2;
+     color:var(--navy);
+     background-color: transparent;
+     word-spacing: 1px;
+     font-size: 40px;
+     font-family: var(--lora);
+     background: -webkit-linear-gradient(#e100b1, #000156,rgb(0, 247, 0));
+     -webkit-background-clip: text;
+     background-clip: text;
+     -webkit-text-fill-color: transparent
+}
+
+.svgofallskills span
+{
+   
+     z-index: 2;
+     background-color: transparent;
+     width: 92vw;
+     position: relative;
+    margin-top: 15px;
+    /* padding-left: 10vw; */
+   
+    
+     font-size: 30px;
+     min-height: 40vh;  
+    color:var(--black);
+     display: grid;
+     grid-template-columns: 20vw 20vw 20vw;
+     justify-content: space-around;
+     align-items: center;
+    justify-items: center;
+    
+}
+
+}

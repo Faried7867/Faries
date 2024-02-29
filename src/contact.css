@@ -1,0 +1,540 @@
+
+:root{
+  --navy: #0009b1;
+  --mildblue:#dbdcff88;
+  --goldyellow:#FFC300;
+  --green:rgba(0, 255, 174, 0.826);
+
+  --lightash:#6c6c6c ;
+  --black:#000000;
+  --light:rgba(255, 137, 200, 0.68);
+  
+  --font:'Readex Pro',sans-serif;
+  --stylishfont:'Noto Serif', 
+  serif;
+  --marker:'Permanent Marker', 'cursive';
+  --lora: 'Lora', serif;
+  --acmefont: 'Acme', sans-serif;
+}
+
+
+
+
+
+
+
+
+  
+
+
+.contact{
+  backdrop-filter: blur(50px);
+     position: relative;
+ z-index: 2;
+   display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+    min-width: 90vw;
+    background-blend-mode:darken;
+    min-height:90vh ;
+background-image: url('./images/flower2.png');
+
+  background-size:cover;
+  /* background-repeat: no-repeat; */
+  background-attachment: fixed;
+  background-position: right ;
+
+    background-size: 50vw;
+    background-repeat: repeat;
+    /* background-color: transparent; */
+
+ 
+   }
+
+ .contact > h2{
+     position: relative;
+     font-family: var(--marker);
+     left: 30px;
+     font-size: 40px;
+     letter-spacing: 5px;
+ 
+    
+     color: var(--black);
+     text-shadow: 0px 0px 5px var(--green);
+     background-color: transparent;
+   } 
+
+   
+   
+  
+ 
+
+
+   .contactsvg{
+  backdrop-filter: blur(10px);
+   display: flex;
+    flex-direction: row;
+   justify-content: space-evenly;
+     align-items: center;
+     z-index: 1;
+    /* filter: brightness(80%)  ; */
+   margin-inline: auto;
+     background-color: transparent;
+     position: relative;
+ 
+     color: #490068;
+     font-size: 25px;
+     
+       border-radius: 10px;
+       background-image: url('./images/Rectangle4.png');
+       
+       background-blend-mode:darken;
+      box-shadow: 0px 0px 25px navy inset;
+      min-width: 70vw;
+       min-height: 50vh;
+       background-size: 30vw;
+       background-position: center;
+    background-repeat: no-repeat;
+       
+      
+     } 
+   .mailsvg
+   {
+    filter: none;
+    position: relative;
+   background-color: #3665ff57;
+   display: flex;
+   flex-direction: row;
+   margin-top: -10%;
+     letter-spacing: 2px;
+   
+   z-index: 3;
+   text-align: center;
+
+ border: 1px solid ;
+ border-radius: 20px;
+  border-top-right-radius: 0%;
+ border-bottom-left-radius: 0%; 
+
+   
+   }
+   .mailsvg > a{
+     color: #000000;
+     background-color: transparent;
+   }
+   
+   
+   .linksvg{
+    border: 1px solid ;
+ border-radius: 20px;
+  border-top-right-radius: 0%;
+ border-bottom-left-radius: 0%; 
+     position: relative;
+ 
+      
+     display: flex;
+     flex-direction: column;
+     margin-top: -10%;
+      letter-spacing: 2px;
+    
+      background-color: #59007c52;
+
+ 
+  
+  
+
+   
+   }
+   
+   
+   .linksvg > a{
+    color: #000000;
+     background-color: transparent;
+   }
+   
+   
+   .instasvg{
+    border: 1px solid ;
+ border-radius: 20px;
+  border-top-right-radius: 0%;
+ border-bottom-left-radius: 0%; 
+   position: relative;
+
+     letter-spacing: 2px;
+     background-color: #73003b5d;
+   
+  
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+     letter-spacing: 2px;
+  
+    
+    
+   }
+   
+   
+   
+   .instasvg > a{
+    color: #000000;
+     background-color: transparent;
+   }
+   
+   .gitsvg{
+ 
+    border: 1px solid ;
+    border-radius: 20px;
+     border-top-right-radius: 0%;
+    border-bottom-left-radius: 0%; 
+   position: relative;
+  
+     letter-spacing: 2px;
+     background-color: #00682649;
+    text-align: center;  
+   
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+   
+ 
+    
+   }  
+   
+   .gitsvg > a{
+    
+    color: #000000;
+     background-color: transparent;
+   }
+
+   .indeed , .naukri
+   {
+    border: 1px solid ;
+    border-radius: 20px;
+     border-top-right-radius: 0%;
+    border-bottom-left-radius: 0%; 
+   position: relative;
+  
+     letter-spacing: 2px;
+     background-color: rgba(0, 47, 255, 0.185);
+    text-align: center;  
+   
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+   
+   }
+   .naukri{
+    background-color: #0080ff48;
+   }
+
+
+a{
+
+  color: #141414;
+  font-weight: bold;
+}
+a:hover{
+  color: #fff9f9;
+  transition-duration: 1s;
+}
+
+
+ 
+
+
+
+.footer{
+ 
+  background-color: transparent;
+ 
+}
+
+.footerheader{
+  background-color: transparent;
+}
+.abt{
+  background-color: transparent;
+  display: flex;
+}
+ 
+  
+
+
+
+
+@media only screen and (max-width : 500px ) {
+
+  
+.contact{
+ 
+  overflow: hidden;
+
+  backdrop-filter: blur(50px);
+     position: relative;
+ z-index: 2;
+margin-inline: auto;
+   display: flex;
+  flex-direction: column;
+  align-items: start;
+ max-height: 70vh;
+  min-width: 50vw;
+    background-blend-mode:darken;
+
+background-image: url('./images/flower2.png');
+
+  background-size:cover;
+  
+  background-attachment: fixed;
+  background-position: right ;
+
+    background-size: 60dvw;
+    background-repeat: repeat;
+   
+
+ 
+   }
+
+ .contact > h2{
+     position: relative;
+     font-family: var(--marker);
+     left: 15px;
+     font-size: 40px;
+     letter-spacing: 5px;
+ 
+    
+     color: var(--black);
+     text-shadow: 0px 0px 5px var(--goldyellow);
+     background-color: transparent;
+   } 
+
+   
+   
+  
+ 
+
+
+   .contactsvg{
+  margin-bottom: 50%;
+  backdrop-filter: blur(10px);
+   display: grid;
+  
+   grid-template-columns: 1fr 1fr;
+   justify-content: space-between;
+     /* align-items: center; */
+     z-index: 1;
+    /* filter: brightness(80%)  ; */
+   margin-inline: auto;
+     background-color: transparent;
+     position: relative;
+ 
+     color: #490068;
+     font-size: 20px;
+     
+       border-radius: 10px;
+       background-image: url('./images/Rectangle4.png');
+       
+       background-blend-mode:darken;
+      box-shadow: 0px 0px 25px navy inset;
+       min-width: 350px;
+       background-size: 50vw;
+       background-position: center;
+    background-repeat: no-repeat;
+      
+      
+     } 
+   .mailsvg
+   {
+    margin-left: 20px;
+    width: 35vw;
+    border: 1px solid ;
+ border-radius: 20px;
+  border-top-right-radius: 0%;
+ border-bottom-left-radius: 0%; 
+     position: relative;
+ 
+      
+     display: flex;
+     flex-direction: column;
+     margin-top: -10%;
+      letter-spacing: 2px;
+    
+      background-color: #00327c52;
+
+   
+   }
+   .mailsvg > a{
+     color: #000000;
+     background-color: transparent;
+   }
+   
+   
+   .linksvg{
+    margin-left: 20px;
+    width: 35vw;
+    border: 1px solid ;
+ border-radius: 20px;
+  border-top-right-radius: 0%;
+ border-bottom-left-radius: 0%; 
+     position: relative;
+ 
+      
+     display: flex;
+     flex-direction: column;
+     margin-top: -10%;
+      letter-spacing: 2px;
+    
+      background-color: #59007c52;
+
+ 
+  
+  
+
+   
+   }
+   
+   
+   .linksvg > a{
+    color: #000000;
+     background-color: transparent;
+   }
+   
+   
+   .instasvg{
+    margin-left: 20px;
+    width: 35vw;
+    border: 1px solid ;
+ border-radius: 20px;
+  border-top-right-radius: 0%;
+ border-bottom-left-radius: 0%; 
+     position: relative;
+ 
+      
+     display: flex;
+     flex-direction: column;
+     margin-top: -10%;
+      letter-spacing: 2px;
+
+
+
+     background-color: #73003b5d;
+   
+  
+
+ 
+  
+    
+    
+   }
+   
+   
+   
+   .instasvg > a{
+    color: #000000;
+     background-color: transparent;
+   }
+   
+   .gitsvg{
+    margin-left: 20px;
+    width: 35vw;
+    border: 1px solid ;
+ border-radius: 20px;
+  border-top-right-radius: 0%;
+ border-bottom-left-radius: 0%; 
+     position: relative;
+ 
+      
+     display: flex;
+     flex-direction: column;
+     margin-top: -10%;
+      letter-spacing: 2px;
+
+
+     background-color: #00682649;
+
+   
+ 
+    
+   }  
+   
+   .gitsvg > a{
+    
+    color: #000000;
+     background-color: transparent;
+   }
+
+   .indeed , .naukri
+   {
+    margin-left: 20px;
+    width: 35vw;
+    border: 1px solid ;
+ border-radius: 20px;
+  border-top-right-radius: 0%;
+ border-bottom-left-radius: 0%; 
+     position: relative;
+ 
+      
+     display: flex;
+     flex-direction: column;
+     margin-top: -10%;
+      letter-spacing: 2px;
+     background-color: rgba(0, 47, 255, 0.185);
+  
+   
+   }
+   .naukri{
+    background-color: #0080ff48;
+   }
+
+
+a{
+
+  color: #141414;
+  font-weight: bold;
+}
+a:hover{
+  color: #fff9f9;
+  transition-duration: 1s;
+}
+
+
+ 
+
+
+
+.footer{
+ 
+  position: relative;
+  background-color: transparent;
+ font-size: small;
+ color: #000000;
+ margin-left: 20px;
+ margin-top: -250px;
+
+ 
+}
+
+.footerheader{
+  background-color: transparent;
+}
+.abt{
+
+  background-color: transparent;
+   border: none;
+ 
+  
+}.abt li{
+  color: #000000;
+  font-size: small;
+}
+ 
+}
+
+
+
+
+
+
+  
+
