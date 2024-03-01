@@ -87,18 +87,16 @@ transition={{duration:1}}
 
 
       <Routes>
-        
-    
-   
-           <Route  path='/'  element={<Home />} /> 
-         
+        <Route>
+
+          <Route path='/' element={<Home />} />
 
           <Route path="qualification" element={<Qualification />} />
 
           <Route path="skills" element={<Skills />} />
 
           <Route path="contactme" element={<Contactme />} />
-      
+        </Route>
 
       </Routes>
     </BrowserRouter>
