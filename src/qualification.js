@@ -158,7 +158,7 @@ transition={{duration:0.5,delay:0.2}}
     <RiHonourFill/></span></h4>
     
      <p> I am a graduate of B.S.Abdur Rahman Crescent Institute of Science & Technology (BSACIST) in Chennai, having completed my studies in [Year of Graduation]. My time at BSACIST, located near Vandalur, was an enriching academic journey that significantly expanded my knowledge base. I graduated with a First Class and a CGPA of 6.7, reflecting my dedication to academic excellence. The university, established in 2023, fosters a supportive learning environment that empowers students to thrive.
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod eius consequatur molestias eveniet sunt harum. Officia minima pariatur neque aut nihil, mollitia inventore blanditiis ipsam dicta magni deleniti, est necessitatibus.
+     
      </p>
 
    </motion.div>
