@@ -1,7 +1,7 @@
 import React from 'react';
 import './home.css';
 import './skill.css';
-import { motion, spring,stagger,useAnimation } from "framer-motion";
+import { motion } from "framer-motion";
 
 function Home()
 {
@@ -31,9 +31,7 @@ function Home()
 
 
 
-<motion.div className='bgimgwrap'
-
->
+<motion.div className='bgimgwrap'>
 
 <div className='bg1' ></div>
 
