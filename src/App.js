@@ -24,7 +24,7 @@ return (
 
   initial={{width:"100vw",height:"100vh",}}
    animate={{height:"0px",}}
-  transition={{delay:1.5,duration:2,ease:"easeIn"}}
+  transition={{delay:1.5,duration:2.5,ease:"easeIn"}}
 >
 
 </motion.div>
