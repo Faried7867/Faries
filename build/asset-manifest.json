@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/Faries/static/css/main.2e31df09.css",
+    "main.js": "/Faries/static/js/main.e07aa25b.js",
+    "static/js/787.7da95b79.chunk.js": "/Faries/static/js/787.7da95b79.chunk.js",
+    "static/media/certificate.pdf": "/Faries/static/media/certificate.0ff97b721bf3ccae67dd.pdf",
+    "static/media/Rectangle3.png": "/Faries/static/media/Rectangle3.8aaa8f20f539e14c2d8c.png",
+    "static/media/Ellipse 6.png": "/Faries/static/media/Ellipse 6.07a099ef2507e08d66c3.png",
+    "static/media/Ellipse 3.png": "/Faries/static/media/Ellipse 3.c82cebeba032a99dbdbb.png",
+    "static/media/Ellipse 4.png": "/Faries/static/media/Ellipse 4.8d566cb670ac438c8ee2.png",
+    "static/media/Ellipse 2.png": "/Faries/static/media/Ellipse 2.773a49ab799c47816199.png",
+    "static/media/Ellipse 1.png": "/Faries/static/media/Ellipse 1.6b3cb9eb6e562eedc21b.png",
+    "static/media/Rectangle.png": "/Faries/static/media/Rectangle.d6e7f79ab7ae427eb2e1.png",
+    "static/media/fariedimg.png": "/Faries/static/media/fariedimg.afabab84ac2010e732ad.png",
+    "static/media/Rectangle4.png": "/Faries/static/media/Rectangle4.b8ddeef5461b4d32fbfa.png",
+    "static/media/MY RESUME.pdf": "/Faries/static/media/MY RESUME.a44e56dee991ee1df3e3.pdf",
+    "static/media/Rectangle5.png": "/Faries/static/media/Rectangle5.83ce03aa7c4dd9426a95.png",
+    "static/media/flower1.png": "/Faries/static/media/flower1.bd8844035dcbdf678112.png",
+    "static/media/flower7.png": "/Faries/static/media/flower7.d669787d2ee6efc3cfe0.png",
+    "static/media/logo.png": "/Faries/static/media/logo.1457dca999c63b9b19c4.png",
+    "static/media/flower2.png": "/Faries/static/media/flower2.389af37a8a0dc93a8151.png",
+    "static/media/flower5.png": "/Faries/static/media/flower5.499df993f4e037759e76.png",
+    "static/media/flower4.png": "/Faries/static/media/flower4.2af2391822e3ecea9f3c.png",
+    "static/media/flower3.png": "/Faries/static/media/flower3.9a3118e4dca14f945ebd.png",
+    "index.html": "/Faries/index.html",
+    "main.2e31df09.css.map": "/Faries/static/css/main.2e31df09.css.map",
+    "main.e07aa25b.js.map": "/Faries/static/js/main.e07aa25b.js.map",
+    "787.7da95b79.chunk.js.map": "/Faries/static/js/787.7da95b79.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e31df09.css",
+    "static/js/main.e07aa25b.js"
+  ]
+}
