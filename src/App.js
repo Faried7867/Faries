@@ -20,7 +20,7 @@ return (
 
 <>
 <motion.div 
-  style={{position:"absolute",left:"-1%",zIndex: 5,backgroundColor: "transparent",backdropFilter: "blur(20px)",}}
+  style={{position:"absolute",left:"-1%",zIndex: 5,backgroundColor: "transparent",backdropFilter: "blur(22px)",}}
 
   initial={{width:"100vw",height:"100vh",}}
    animate={{height:"0px",}}
